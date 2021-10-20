@@ -5,7 +5,9 @@ html {
   font-family: sans-serif;
 }
 
-
+body{
+ background-color: #ffbd59;
+}
 .jumbotron {
   background-image: url("./images/jumbotron.svg");
   background-size: cover;
@@ -18,13 +20,14 @@ html {
 }
 
 footer{
-  background-color: #ffbd59;
+  background-color: #16558f;
 }
 #jumbotron-h1, #jumbotron-p{
+  font-size: 100px;
   font-family: 'Fjalla One', sans-serif;
 }
 #jumbotron-p{
-  font-size: 40px;
+  font-size: 70px;
 
 }
 
@@ -37,4 +40,54 @@ footer{
 }
 #navbar{
   background-color: #ffbd59;
+}
+
+div>a{
+  color: #ffbd59;
+  font-weight: bold;
+}
+div>.btn{
+  background-color: #ffbd59;
+  color: black;
+}
+
+.card{
+  background-color: #16558f;
+  color: white;
+}
+
+#learnbtn{
+  margin-top: 220px;
+  background-color: #ffbd59 ;
+}
+
+#submit{
+  background-color: #16558f;
+  color: white;
+}
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
 }

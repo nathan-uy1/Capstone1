@@ -49,21 +49,25 @@
 		<div class="jumbotron jumbotron-fluid px-5">
 	    	<h1 class="display-3 text-white" id="jumbotron-h1">NATHANIEL UY</h1>
 	  		<h2 class="lead text-white" id="jumbotron-p">Web Development & Designs</h2>
-	  		<p class="text-white">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	  		<div class="d-flex d-inline-block justify-content-center align-items-end">
+	  			<a class="btn btn-lg btn-warning" href="#about" id= "learnbtn" role="button">Learn more</a>
+	  		</div>
 		</div>
 	</div>
 	<div class="container px-1 pb-5 mb-5" id="about">
 		<div class="row px-5 mx-0">
-			<h2 class="col text-center">My Story</h2>
+			<div class="col-12 col-md-8 col-lg-6">
+			<h2 class="text-center">My Story</h2>
 			<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Similique assumenda libero, blanditiis ullam quae autem sint saepe quo temporibus recusandae quos nemo nesciunt totam expedita necessitatibus inventore? Ratione, numquam incidunt.</p>
+			</div>
 			<div class="row">
-			<div class="col pr-5 pl-0">
+			<div class="col-12 col-md-8 col-lg-6 pr-5 pl-0">
 				<h2 class="text-center">Placeholder</h2>
 				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facilis officia fugiat illum libero eos sed soluta labore consequatur in. Illo omnis at excepturi voluptates ea ratione numquam fuga dolorum. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Officiis porro aliquam molestiae atque ullam eaque animi repellat eius! Necessitatibus soluta laudantium iste velit voluptatum sed inventore quam dolore vel, molestiae.</p>
 				<h2 class="text-center">Placeholder</h2>
 				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facilis officia fugiat illum libero eos sed soluta labore consequatur in. Illo omnis at excepturi voluptates ea ratione numquam fuga dolorum. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Officiis porro aliquam molestiae atque ullam eaque animi repellat eius! Necessitatibus soluta laudantium iste velit voluptatum sed inventore quam dolore vel, molestiae.</p>
 			</div>
-			<div class="col">
+			<div class="col-12 col-md-8 col-lg-6">
 				<img src="./images/PJM07193.jpg" class="img-fluid rounded-circle pl-5">
 			</div>
 		</div>
@@ -81,7 +85,7 @@
 	  				<div class="card-body">
 		   				<h5 class="card-title">Front-End Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		    			<a href="#" class="btn btn-primary">Go somewhere</a>
+		    			<a href="#" class="btn btn-warning">Go somewhere</a>
   					</div>
 				</div>
 			</div>
@@ -91,7 +95,7 @@
 	  				<div class="card-body">
 		   				 <h5 class="card-title">Back-End Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		    			<a href="#" class="btn btn-primary">Go somewhere</a>
+		    			<a href="#" class="btn btn-warning">Go somewhere</a>
   					</div>
 				</div>
 			</div>
@@ -101,7 +105,7 @@
 	  				<div class="card-body">
 		   				 <h5 class="card-title">Full-Stack Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		    			<a href="#" class="btn btn-primary">Go somewhere</a>
+		    			<a href="#" class="btn btn-warning">Go somewhere</a>
   					</div>
 				</div>
 			</div>
@@ -109,32 +113,32 @@
 	</section>
 	<section class="container pb-4">
 		<div class="row d-flex justify-content-center">
-			<div class="col-6">
+			<div class="col-12 col-md-8 col-lg-6">
 				<h3 class="text-center" id="contact">Reach Out</h3>
 				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem architecto dolor accusantium laborum asperiores modi quam, nisi, delectus, nobis expedita reiciendis vel quod eius perspiciatis, a commodi nostrum veniam neque.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-6">
-				<form>
+			<div class="col-12 col-md-8 col-lg-6">
+				<form class="text-center">
     				<div class="form-group">
 					    <label for="exampleInputName1">Name</label>
-					    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+					    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Your name here">
   					</div>
 					<div class="form-group">
 					    <label for="exampleInputEmail1">Email Address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1">
+					    <input type="email" class="form-control text-center" id="exampleInputEmail1" placeholder="me@domain.com">
 					</div>
 					<div class="form-group">
 					    <label for="exampleInputContact1">Contact Number</label>
-					    <input type="number" class="form-control" id="exampleInputContact1">
+					    <input type="number" class="form-control text-center" id="exampleInputContact1" placeholder="0908 999 9999">
 					</div>
 					<div class="form-group">
     					<label for="exampleFormControlTextarea1">Message</label>
     					<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
   					</div>
   					<div class="d-flex justify-content-center">
-  						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  						<button type="button" class="btn btn-primary" id="submit" data-toggle="modal" data-target="#exampleModal">
        						Submit
 						</button>
 					</div>
@@ -158,7 +162,7 @@
 					</div>
 				</form>
 			</div>
-			<div class="col-6">
+			<div class="col-12 col-md-8 col-lg-6 map-responsive">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7640.689088916067!2d118.74198264393381!3d9.741562724016516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b56327223e1f57%3A0xcf4c3a6158b3b76a!2sThink%20Space%20Co-working%20and%20Study%20lounge!5e0!3m2!1sen!2sph!4v1634686432803!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 			</div>
 		</div>
@@ -172,10 +176,10 @@
 				<a href="https://github.com" target="_blank"><img src="./images/Github.png" height="30" class=""></a>
 			</div>
 		</div>
-		<div class="row d-flex justify-content-center footer1 text-white ">
-			<div class="p-4 font-weight-light"><a href="#about"class="text-white text-decoration-none">My Story</a></div>
-			<div class="p-4 font-weight-light"><a href="#projects" class="text-white text-decoration-none">What We Do</a></div>
-			<div class="p-4 font-weight-light"><a href="#contact" class="text-white text-decoration-none">Reach Out</div></a>
+		<div class="row d-flex justify-content-center footer1 ">
+			<div class="p-4 font-weight-light"><a href="#about"class="text-decoration-none">My Story</a></div>
+			<div class="p-4 font-weight-light"><a href="#projects" class="text-decoration-none">What We Do</a></div>
+			<div class="p-4 font-weight-light"><a href="#contact" class="text-decoration-none">Reach Out</div></a>
 		</div>
 
 
