@@ -1,5 +1,30 @@
-.jumbotron {
-  background-image: url("./images/pexels-negative-space-160107.jpg");
-  background-size: cover;
+html {
+  scroll-behavior: smooth;
+}
+*{
+  font-family: sans-serif;
+}
 
+
+.jumbotron {
+  background-image: url("./images/jumbotron.svg");
+  background-size: cover;
+  min-height: 600px;
+
+}
+
+.footer1{
+  font-size: 12px;
+}
+
+footer{
+  background-color: #61b0b7;
+}
+#jumbotron-h1{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+#about{
+  background-image: url("./images/background-about.svg")  ;
+  background-size: cover;
 }

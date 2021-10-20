@@ -4,6 +4,11 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title></title>
@@ -14,7 +19,7 @@
 		<nav class="navbar navbar-light bg-light">
 			<a class="navbar-brand" href="#">
 			<img src="./images/Nate.png" width="50" height="50" class="d-inline-block align-center" alt="">
-	   		Nate
+	   		Nathaniel Uy
 			</a>
 		</nav>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,14 +31,14 @@
 		        	<li class="nav-item active">
 		        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 		      		</li>
-		     		<li class="nav-item">
-		        		<a class="nav-link" href="#">About</a>
+		     		<li class="nav-item active">
+		        		<a class="nav-link" href="#about">My Story</a>
 		      		</li>
-		      		<li class="nav-item">
-		        		<a class="nav-link" href="#">Projects</a>
+		      		<li class="nav-item active">
+		        		<a class="nav-link" href="#projects">What I Do</a>
 		      		</li>
-		      		<li class="nav-item">
-		        		<a class="nav-link " href="#">Contact</a>
+		      		<li class="nav-item active">
+		        		<a class="nav-link" href="#contact">Reach Out</a>
 		      		</li>
 		   		</ul>
 	  		</div>
@@ -41,40 +46,38 @@
 	</div>
 	<!-- <jumbotron> -->
 	<div class="px-5">
-		<div class="jumbotron jumbotron-fluid">
-	    	<h1 class="display-3 text-white">Hello, world!</h1>
-	  		<p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information. Lorem ipsum dolor sit amet consectetur adipisicing, elit. Deleniti, modi. Omnis, quod similique. Iusto, distinctio officiis minima molestiae illo quia magni vel fugiat cupiditate blanditiis, labore, omnis excepturi repellat. Reprehenderit! Lorem ipsum dolor sit amet consectetur adipisicing elit. At numquam explicabo, minima qui facere provident aut voluptas, consequatur laboriosam laudantium deserunt perferendis animi illum dolore temporibus asperiores natus possimus omnis.</p>
+		<div class="jumbotron jumbotron-fluid px-5">
+	    	<h1 class="display-3 text-white" id="jumbotron-h1">NATHANIEL UY</h1>
+	  		<p class="lead text-white" id="jumbotron-p">Web Development & Designs</p>
 	  		<p class="text-white">It uses utility classes for typography and spacing to space content out within the larger container.</p>
-	  		<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container px-1" id="about">
 		<div class="row">
-
-			<h2 class="col text-center">About Me</h2>
+			<h2 class="col text-center">My Story</h2>
 			<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Similique assumenda libero, blanditiis ullam quae autem sint saepe quo temporibus recusandae quos nemo nesciunt totam expedita necessitatibus inventore? Ratione, numquam incidunt.</p>
 			<div class="row">
-			<div class="col">
+			<div class="col pr-5 pl-0">
 				<h2 class="text-center">Placeholder</h2>
 				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facilis officia fugiat illum libero eos sed soluta labore consequatur in. Illo omnis at excepturi voluptates ea ratione numquam fuga dolorum. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Officiis porro aliquam molestiae atque ullam eaque animi repellat eius! Necessitatibus soluta laudantium iste velit voluptatum sed inventore quam dolore vel, molestiae.</p>
 				<h2 class="text-center">Placeholder</h2>
 				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facilis officia fugiat illum libero eos sed soluta labore consequatur in. Illo omnis at excepturi voluptates ea ratione numquam fuga dolorum. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Officiis porro aliquam molestiae atque ullam eaque animi repellat eius! Necessitatibus soluta laudantium iste velit voluptatum sed inventore quam dolore vel, molestiae.</p>
 			</div>
 			<div class="col">
-				<img src="./images/PJM07193.jpg" class="img-fluid">
+				<img src="./images/PJM07193.jpg" class="img-fluid rounded-circle pl-5">
 			</div>
 		</div>
 		</div>
 	</div>
-	<section class="container">
-		<div class="text-center">
-			<h2>My Projects</h2>
+	<section class="container pb-5">
+		<div class="text-center" id="projects">
+			<h2>What I Do</h2>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex asperiores necessitatibus cupiditate dicta et voluptatem dignissimos tempore quae molestiae iure unde harum, quam! Ipsa natus cupiditate illo dolore quod nisi!</p>
 		</div>
 		<div class="row">
 			<div class="col">
 				<div class="card p-4" style="width: 18rem;">
-	  				<img src="https://www.virtueinfo.com/assets/img/frontend-1.png" class="img-fluid" class="card-img-top" alt="...">
+	  				<img src="https://www.virtueinfo.com/assets/img/frontend-1.png" class="card-img-top" height="140"  alt="...">
 	  				<div class="card-body">
 		   				<h5 class="card-title">Front-End Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -83,8 +86,8 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card p-4" style="width: 18rem;">
-	  				<img src="https://codecondo.com/wp-content/uploads/2017/09/What-is-back-end-development.jpg" class="card-img-top" alt="...">
+				<div class="card p-4 " style="width: 18rem;">
+	  				<img src="https://codecondo.com/wp-content/uploads/2017/09/What-is-back-end-development.jpg" class="card-img-top" height="140" alt="...">
 	  				<div class="card-body">
 		   				 <h5 class="card-title">Back-End Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -94,7 +97,7 @@
 			</div>
 			<div class="col">
 				<div class="card p-4" style="width: 18rem;">
-	  				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHTkCFKkimLkBKtrsjOxOPUwteEuqiKyqeA&usqp=CAU" class="card-img-top" alt="...">
+	  				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHTkCFKkimLkBKtrsjOxOPUwteEuqiKyqeA&usqp=CAU" class="card-img-top" height="140" alt="...">
 	  				<div class="card-body">
 		   				 <h5 class="card-title">Full-Stack Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,6 +107,79 @@
 			</div>
 		</div>
 	</section>
+	<section class="container pb-4">
+		<div class="row d-flex justify-content-center">
+			<div class="col-6">
+				<h3 class="text-center" id="contact">Reach Out</h3>
+				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem architecto dolor accusantium laborum asperiores modi quam, nisi, delectus, nobis expedita reiciendis vel quod eius perspiciatis, a commodi nostrum veniam neque.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<form>
+    				<div class="form-group">
+					    <label for="exampleInputName1">Name</label>
+					    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+  					</div>
+					<div class="form-group">
+					    <label for="exampleInputEmail1">Email Address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1">
+					</div>
+					<div class="form-group">
+					    <label for="exampleInputContact1">Contact Number</label>
+					    <input type="number" class="form-control" id="exampleInputContact1">
+					</div>
+					<div class="form-group">
+    					<label for="exampleFormControlTextarea1">Message</label>
+    					<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  					</div>
+  					<div class="d-flex justify-content-center">
+  						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+       						Submit
+						</button>
+					</div>
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body text-center">
+					        Your message has been sent!
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</form>
+			</div>
+			<div class="col-6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7640.689088916067!2d118.74198264393381!3d9.741562724016516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b56327223e1f57%3A0xcf4c3a6158b3b76a!2sThink%20Space%20Co-working%20and%20Study%20lounge!5e0!3m2!1sen!2sph!4v1634686432803!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+		</div>
+	</section>
+	<footer class="p-4">
+		<div class="row mx-auto">
+			<div class="col d-flex justify-content-center align-center">
+				<a href="https://facebook.com" target="_blank"><img src="./images/FB.png"  height="25" class=""></a>
+				<a href="https://instagram.com" target="_blank"><img src="./images/IG.png" height= "30"class=""></a>
+				<a href="https://linkedin.com" target="_blank"><img src="./images/Linkedin.png" height="30" class=""></a>
+				<a href="https://github.com" target="_blank"><img src="./images/Github.png" height="30" class=""></a>
+			</div>
+		</div>
+		<div class="row d-flex justify-content-center footer1 text-white ">
+			<div class="p-4 font-weight-light"><a href="#about"class="text-white text-decoration-none">My Story</a></div>
+			<div class="p-4 font-weight-light"><a href="#projects" class="text-white text-decoration-none">What We Do</a></div>
+			<div class="p-4 font-weight-light"><a href="#contact" class="text-white text-decoration-none">Reach Out</div></a>
+		</div>
+
+
+	</footer>
 
 
 
