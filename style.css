@@ -18,7 +18,7 @@ html {
 }
 
 footer{
-  background-color: #61b0b7;
+  background-color: #ffbd59;
 }
 #jumbotron-h1, #jumbotron-p{
   font-family: 'Fjalla One', sans-serif;
@@ -29,6 +29,12 @@ footer{
 }
 
 #about{
-  background-image: url("./images/background-about.svg")  ;
+  min-height: 100px;
+  background-image: url("./images/background-about.svg") no-repeat 0 0 fixed ;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#navbar{
+  background-color: #ffbd59;
 }
