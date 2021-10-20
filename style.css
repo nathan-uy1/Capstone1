@@ -20,8 +20,12 @@ html {
 footer{
   background-color: #61b0b7;
 }
-#jumbotron-h1{
+#jumbotron-h1, #jumbotron-p{
   font-family: 'Fjalla One', sans-serif;
+}
+#jumbotron-p{
+  font-size: 40px;
+
 }
 
 #about{
