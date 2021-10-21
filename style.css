@@ -3,6 +3,7 @@ html {
 }
 *{
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 body{
@@ -16,18 +17,19 @@ body{
 }
 
 .footer1{
-  font-size: 12px;
+  font-size: 16px;
 }
 
 footer{
   background-color: #16558f;
 }
-#jumbotron-h1, #jumbotron-p{
-  font-size: 100px;
+#jumbotron-h1{
+  font-size: 60px;
   font-family: 'Fjalla One', sans-serif;
+  color: white;
 }
 #jumbotron-p{
-  font-size: 70px;
+  font-size: 25px;
 
 }
 
@@ -52,18 +54,22 @@ div>.btn{
 }
 
 .card{
-  background-color: #16558f;
-  color: white;
+  background-color: white;
+  color: black;
 }
 
-#learnbtn{
-  margin-top: 220px;
-  background-color: #ffbd59 ;
+.card2{
+  background-color: #16558f;
+  color: white;
 }
 
 #submit{
   background-color: #16558f;
   color: white;
+}
+
+div>p{
+  font-size: 20px;
 }
 
 .map-responsive{
@@ -91,3 +97,15 @@ div>.btn{
     position:absolute;
 
 }
+
+#brand{
+  font-family: 'Permanent Marker', cursive;
+  color: #ff914d;
+  font-size: 80px;
+}
+
+#btn2, #btn3{
+  background-color: #16558f;
+  color: white;
+}
+

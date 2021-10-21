@@ -8,6 +8,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
 	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +18,7 @@
 </head>
 <body>
 	<!-- Nav-bar -->
-	<div class="d-flex justify-content-between px-5 mx-5" id="navbar">
+	<div class="d-flex justify-content-between mx-auto" id="navbar">
 		<nav class="navbar navbar-light">
 			<a class="navbar-brand" href="#">
 			<img src="./images/Nate.png" width="50" height="50" class="d-inline-block align-center" alt="">
@@ -32,7 +35,7 @@
 		        		<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 		      		</li>
 		     		<li class="nav-item active">
-		        		<a class="nav-link" href="#about">My Story</a>
+		        		<a class="nav-link" href="#about">Who I Am</a>
 		      		</li>
 		      		<li class="nav-item active">
 		        		<a class="nav-link" href="#projects">What I Do</a>
@@ -45,30 +48,29 @@
 		</nav>
 	</div>
 	<!-- <jumbotron> -->
-	<div class="px-5 pb-4">
-		<div class="jumbotron jumbotron-fluid px-5">
-	    	<h1 class="display-3 text-white" id="jumbotron-h1">NATHANIEL UY</h1>
-	  		<h2 class="lead text-white" id="jumbotron-p">Web Development & Designs</h2>
-	  		<div class="d-flex d-inline-block justify-content-center align-items-end">
-	  			<a class="btn btn-lg btn-warning" href="#about" id= "learnbtn" role="button">Learn more</a>
-	  		</div>
-		</div>
+	<div class="jumbotron jumbotron-fluid pl-0 pt-0 pb-5 ">
+	  <div class="container d-flex flex-wrap container-fluid">
+	  	<div class="row">
+	  		<div class="col-12 col-md-8 col-lg-6 p-2 ">
+			    <h1 class="display-1 text-white py-5 mx-auto" id="jumbotron-h1">Hi, I'm <span id="brand">Nathan</span>. I build Awesome Websites!</h1>
+			    <div class="d-flex justify-content-center align-items-end justify-content-md-end">
+			  			<a class="btn btn-lg btn-warning" href="#about" id= "learnbtn" role="button">Learn more</a>
+		  		</div>
+  			</div>
+  		</div>
+	  </div>
 	</div>
-	<div class="container px-1 pb-5 mb-5" id="about">
-		<div class="row px-5 mx-0">
-			<div class="col-12 col-md-8 col-lg-6">
-			<h2 class="text-center">My Story</h2>
-			<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Similique assumenda libero, blanditiis ullam quae autem sint saepe quo temporibus recusandae quos nemo nesciunt totam expedita necessitatibus inventore? Ratione, numquam incidunt.</p>
+	<div class="container px-1 pb-5" id="about">
+		<div class="row px-5 mx-0 text-center">
+			<div class="col-12 mx-auto">
+			<h2 class="pb-4">Who I Am</h2>
 			</div>
-			<div class="row">
-			<div class="col-12 col-md-8 col-lg-6 pr-5 pl-0">
-				<h2 class="text-center">Placeholder</h2>
-				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facilis officia fugiat illum libero eos sed soluta labore consequatur in. Illo omnis at excepturi voluptates ea ratione numquam fuga dolorum. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Officiis porro aliquam molestiae atque ullam eaque animi repellat eius! Necessitatibus soluta laudantium iste velit voluptatum sed inventore quam dolore vel, molestiae.</p>
-				<h2 class="text-center">Placeholder</h2>
-				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facilis officia fugiat illum libero eos sed soluta labore consequatur in. Illo omnis at excepturi voluptates ea ratione numquam fuga dolorum. Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Officiis porro aliquam molestiae atque ullam eaque animi repellat eius! Necessitatibus soluta laudantium iste velit voluptatum sed inventore quam dolore vel, molestiae.</p>
+			<div class="row d-flex justify-content-center">
+			<div class="col-12 col-md-8 col-lg-6 order-2 order-lg-1 d-flex align-items-center">
+				<p class="text-justify py-4">Ahoy! Call me Nathan. I'm a full-stack web-developer who specializes in ecommerce and business websites. Before striking out on my own, I've been working for different tech companies for the most part of the decade. This experience gave me the foundation to eventually do freelance work. I'm excited to work with you on your business. if you're someone who values value more than anything, let's talk.</p>
 			</div>
-			<div class="col-12 col-md-8 col-lg-6">
-				<img src="./images/PJM07193.jpg" class="img-fluid rounded-circle pl-5">
+			<div class="col-12 col-md-8 col-lg-6 order-1">
+				<img src="./images/PJM07193.jpg" class="img-fluid rounded-circle pl-lg-0">
 			</div>
 		</div>
 		</div>
@@ -76,54 +78,56 @@
 	<section class="container py-5">
 		<div class="text-center" id="projects">
 			<h2>What I Do</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex asperiores necessitatibus cupiditate dicta et voluptatem dignissimos tempore quae molestiae iure unde harum, quam! Ipsa natus cupiditate illo dolore quod nisi!</p>
+			<p>As a full-stack developer, I can do both front-end and back-end development. This is on top of making sure your website gets to be on the first page of the search results for different search engines. </p>
 		</div>
-		<div class="row">
-			<div class="col">
-				<div class="card p-4" style="width: 18rem;">
+		<div class="">
+		<div class="row d-flex flex-column flex-md-row justify-content-md-between">
+			<div class="col px-0 px-md-1 d-flex justify-content-center">
+				<div class="card p-4 mt-4" style="width: 18rem;">
 	  				<img src="https://www.virtueinfo.com/assets/img/frontend-1.png" class="card-img-top" height="140"  alt="...">
 	  				<div class="card-body">
 		   				<h5 class="card-title">Front-End Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		    			<a href="#" class="btn btn-warning">Go somewhere</a>
+		    			<a href="#" class="btn" id="btn2">Go somewhere</a>
   					</div>
 				</div>
 			</div>
-			<div class="col">
-				<div class="card p-4 " style="width: 18rem;">
+			<div class="col px-0 px-md-1 d-flex justify-content-center">
+				<div class="card card2 p-4 mt-4" style="width: 18rem;">
 	  				<img src="https://codecondo.com/wp-content/uploads/2017/09/What-is-back-end-development.jpg" class="card-img-top" height="140" alt="...">
 	  				<div class="card-body">
 		   				 <h5 class="card-title">Back-End Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		    			<a href="#" class="btn btn-warning">Go somewhere</a>
+		    			<a href="#" class="btn">Go somewhere</a>
   					</div>
 				</div>
-			</div>
-			<div class="col">
-				<div class="card p-4" style="width: 18rem;">
+			</div> 
+			<div class="col px-0 px-md-1 d-flex justify-content-center">
+				<div class="card p-4 mt-4" style="width: 18rem;">
 	  				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHTkCFKkimLkBKtrsjOxOPUwteEuqiKyqeA&usqp=CAU" class="card-img-top" height="140" alt="...">
 	  				<div class="card-body">
 		   				 <h5 class="card-title">Full-Stack Development</h5>
 		    			<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-		    			<a href="#" class="btn btn-warning">Go somewhere</a>
+		    			<a href="#" class="btn" id="btn3">Go somewhere</a>
   					</div>
 				</div>
 			</div>
 		</div>
+		</div>
 	</section>
-	<section class="container pb-4">
+	<section class="container pb-2">
 		<div class="row d-flex justify-content-center">
-			<div class="col-12 col-md-8 col-lg-6">
+			<div class="col-12 col-md-8 col-lg-6 pb-4">
 				<h3 class="text-center" id="contact">Reach Out</h3>
-				<p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem architecto dolor accusantium laborum asperiores modi quam, nisi, delectus, nobis expedita reiciendis vel quod eius perspiciatis, a commodi nostrum veniam neque.</p>
+				<p class="text-justify">If you have a business and you need a website done, feel free to reach out. Shoot me a message and I'll respond back as soon as possible</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row d-flex justify-content-center">
 			<div class="col-12 col-md-8 col-lg-6">
-				<form class="text-center">
+				<form class="text-center pb-4">
     				<div class="form-group">
 					    <label for="exampleInputName1">Name</label>
-					    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Your name here">
+					    <input type="text" class="form-control text-center" id="exampleInputName1" aria-describedby="nameHelp" placeholder="Your name here">
   					</div>
 					<div class="form-group">
 					    <label for="exampleInputEmail1">Email Address</label>
@@ -135,9 +139,9 @@
 					</div>
 					<div class="form-group">
     					<label for="exampleFormControlTextarea1">Message</label>
-    					<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+    					<textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
   					</div>
-  					<div class="d-flex justify-content-center">
+  					<div class="d-flex justify-content-center pt-4">
   						<button type="button" class="btn btn-primary" id="submit" data-toggle="modal" data-target="#exampleModal">
        						Submit
 						</button>
@@ -163,7 +167,7 @@
 				</form>
 			</div>
 			<div class="col-12 col-md-8 col-lg-6 map-responsive">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7640.689088916067!2d118.74198264393381!3d9.741562724016516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b56327223e1f57%3A0xcf4c3a6158b3b76a!2sThink%20Space%20Co-working%20and%20Study%20lounge!5e0!3m2!1sen!2sph!4v1634686432803!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.2935749357284!2d118.74055521457973!3d9.741180893028893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b56327223e1f57%3A0xcf4c3a6158b3b76a!2sThink%20Space%20Co-working%20and%20Study%20lounge!5e0!3m2!1sen!2sph!4v1634787889673!5m2!1sen!2sph" width="400" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 			</div>
 		</div>
 	</section>
